@@ -9,6 +9,8 @@ export const getPlayer = /* GraphQL */ `
       lastname
       grade
       nicknake
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -25,6 +27,8 @@ export const listPlayers = /* GraphQL */ `
         lastname
         grade
         nicknake
+        createdAt
+        updatedAt
       }
       nextToken
     }

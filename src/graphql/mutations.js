@@ -12,6 +12,8 @@ export const createPlayer = /* GraphQL */ `
       lastname
       grade
       nicknake
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -26,6 +28,8 @@ export const updatePlayer = /* GraphQL */ `
       lastname
       grade
       nicknake
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -40,6 +44,8 @@ export const deletePlayer = /* GraphQL */ `
       lastname
       grade
       nicknake
+      createdAt
+      updatedAt
     }
   }
 `;
