@@ -1,5 +1,15 @@
+import React, {useEffect, useState} from 'react';
+import Amplify, {API, graphqlOperation} from 'aws-amplify';
+import {createPlayer} from '.graphql/mutations';
+import {listPlayers} from '.graphql/queries';
 import logo from './logo.svg';
 import './App.css';
+import awsExports from "./aws-exports";
+
+Amplify.configure(awsExports);
+
+const initialState = {firstname: "", lastname: "", grade: "", nickname: ""};
+
 
 function App() {
   return (

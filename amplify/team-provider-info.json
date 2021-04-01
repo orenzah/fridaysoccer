@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fridaysoccer2-dev-12509-authRole",
+            "UnauthRoleArn": "arn:aws:iam::747350490880:role/amplify-fridaysoccer2-dev-12509-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::747350490880:role/amplify-fridaysoccer2-dev-12509-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-fridaysoccer2-dev-12509-deployment",
+            "UnauthRoleName": "amplify-fridaysoccer2-dev-12509-unauthRole",
+            "StackName": "amplify-fridaysoccer2-dev-12509",
+            "StackId": "arn:aws:cloudformation:eu-west-2:747350490880:stack/amplify-fridaysoccer2-dev-12509/cbe4cbe0-91a6-11eb-88b2-0a73f24718f4",
+            "AmplifyAppId": "d3f1x27r5um47y"
+        }
+    }
+}
